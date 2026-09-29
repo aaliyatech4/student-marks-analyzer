@@ -90,7 +90,7 @@ def search_student():
     for student in students:
         if student["name"].lower() == name.lower():
             marks = student["marks"]
-            print("===== STUDENT REPORT =====")
+            print("STUDENT REPORT")
             print("Name:", student["name"])
             print("Marks:", marks)
             print("Total:", calculate_total(marks))
